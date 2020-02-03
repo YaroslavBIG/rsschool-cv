@@ -1,1 +1,1 @@
- https://YaroslavBIG.github.io/rsschool-cv/cv
+https://YaroslavBIG.github.io/rsschool-cv/cv
