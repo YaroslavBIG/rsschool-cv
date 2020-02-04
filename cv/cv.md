@@ -74,7 +74,8 @@
 
 ## Experience
 
-
+Сreated only educational projects
+***
 
 ## Education
 * [HTML/CSS](https://geekbrains.ru/certificates/706201.en "Certificat") training course from Geek Brains
