@@ -3,12 +3,11 @@
 
 ## Contacts
 * Telegram: @YaroslavBIG
-
 * E-Mail  : yaroslavbig@ya.ru
 ***
 
 ## Summary
-
+_My goal is to study modern FrontEnd technologies and get an interesting profession!_
 ***
 
 ## Technical Skills
