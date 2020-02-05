@@ -1,5 +1,3 @@
----
-
 # Iaroslav Mos
 
 ## Contacts
