@@ -1,14 +1,16 @@
-***
+---
 # Iaroslav Mos
 
 ## Contacts
 * Telegram: @YaroslavBIG
 * E-Mail  : yaroslavbig@ya.ru
-***
+
+---
 
 ## Summary
 _My goal is to study modern FrontEnd technologies and get an interesting profession!_
-***
+
+---
 
 ## Technical Skills
 * Development languages (basics):    
@@ -22,7 +24,8 @@ _My goal is to study modern FrontEnd technologies and get an interesting profess
     * CSS
     * BASH
     * GIT
-***
+
+---
 
 ## Code exampels
 ```html
@@ -68,19 +71,22 @@ _My goal is to study modern FrontEnd technologies and get an interesting profess
 
 [If you want to see more go to my Git account](https://github.com/YaroslavBIG "My Git")
 
-***
+---
 
 
 ## Experience
 
 Сreated only educational projects
-***
+
+---
 
 ## Education
 * [HTML/CSS](https://geekbrains.ru/certificates/706201.en "Certificat") training course from Geek Brains
 * [JavaScript](https://ru.hexlet.io/my "My Profile") (base) on Hexlet.io
-***
+
+---
 
 ## English
 A2 — Elementary
-***
+
+---
