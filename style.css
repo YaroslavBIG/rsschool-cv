@@ -1,11 +1,61 @@
-html {
-    
-}
+html {}
 
-body {
-    
-}
+body {}
+
 
 .container {
     max-width: 1024px;
+    padding: 15px 20px;
+}
+
+.padding-site {
+    padding: 
+}
+
+.photo {
+    display: inline-block;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+}
+
+.contacts {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+}
+
+.contacts :first-child {
+    margin-bottom: 70px;
+}
+
+.summary {
+    text-align: center;
+}
+
+.summary p {
+    text-align: left;
+}
+
+.technical-skills {
+    
+}
+
+.technical-skills h2 {
+    text-align: center;
+}
+
+.technical-skills ul li {
+    line-height: 160%;
+    padding: 1%
+}
+
+.code-exampels h2 {
+    text-align: center;
+}
+
+.code-exampels pre {
+    margin-left: -13%;
 }
