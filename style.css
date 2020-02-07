@@ -1,7 +1,24 @@
 html {}
 
-body {}
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
 
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 .container {
     max-width: 1024px;
@@ -23,8 +40,8 @@ body {}
 
 .contacts {
     display: inline-block;
-    text-align: center;
     width: 60%;
+    text-align: center;
 }
 
 .contacts :first-child {
@@ -43,19 +60,25 @@ body {}
     
 }
 
-.technical-skills h2 {
-    text-align: center;
-}
-
 .technical-skills ul li {
     line-height: 160%;
     padding: 1%
 }
 
-.code-exampels h2 {
-    text-align: center;
+
+.code-exampels details {
+    margin-bottom: 30px;
 }
 
 .code-exampels pre {
     margin-left: -13%;
 }
+
+.experience p {
+    
+}
+
+.education a {
+    line-height: 160%;
+}
+
