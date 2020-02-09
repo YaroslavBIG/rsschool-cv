@@ -7,7 +7,7 @@
 ---
 
 ## Summary
-_My goal is to study modern FrontEnd technologies and get an interesting profession!_
+_Hard-working computer science specialist. Seeking to use proven skills in leadership, debugging, and coding to meet business needs. My goal is to study modern front end development technologies and get an interesting profession!_
 
 ---
 
