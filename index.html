@@ -3,26 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" htef="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>HTML, CSS &amp; Git Basics task</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="photo">
-            <img src="photo.jpg" alt="My Photo">
-        </div>
-        <div class="contacts">
-            <h1>Iaroslav Mos</h1>
-            <h2>Contacts</h2>
-            <p>Telegram: <a href="https://tgrm.github.io/YaroslavBIG">@YaroslavBIG</a></p>
-            <p>E-Mail : <a href="mailto:yaroslavbig@ya.ru?subject=resume"></a>yaroslavbig@ya.ru</p>
-        </div>
-        <div class="summary">
+    <main class="container">
+        <header>
+            <div class="photo">
+                <img src="photo.jpg" alt="My Photo">
+            </div>
+            <address class="contacts">
+                <h1>Iaroslav Mos</h1>
+                <h2>Contacts</h2>
+                <p>Telegram: <a href="https://tgrm.github.io/YaroslavBIG">@YaroslavBIG</a></p>
+                <p>E-Mail : <a href="mailto:yaroslavbig@ya.ru?subject=resume">yaroslavbig@ya.ru</a></p>
+            </address>
+        </header>
+        <section class="summary">
             <h2>Summary</h2>
-            <p>My goal is to study modern FrontEnd technologies and get an interesting profession!</p>
-        </div>
+            <p>Hard-working computer science specialist. Seeking to use proven skills in leadership, debugging, and coding to meet business needs. My goal is to study modern front end development technologies and get an interesting profession!</p>
+        </section>
         <div class="technical-skills">
             <h2><strong>Technical Skills</strong></h2>
             <ul>
@@ -50,256 +52,255 @@
             <div class="code-exampels">
                 <h2>Code-exampels</h2>
                 <details>
-                    <summary>HTML</summary>
+                    <summary>HTML code-exampels</summary>
                     <pre>
-                       &#60!DOCTYPE html&#62
-                        &#60html lang="en"&#62
+   &#60;!DOCTYPE html&#62;
+    &#60;html lang="en"&#62;
 
-                        &#60head&#62
-                            &#60meta charset="UTF-8"&#62
-                            &#60title&#62Home Page&#60/title&#62
-                            &#60link rel="stylesheet" href="css/style.css"&#62
-                            &#60link rel="stylesheet" href="css/fontsico.css"&#62 
-                        &#60/head&#62
-                        &#60body&#62
-                            &#60div class="container"&#62
-                                &#60div class="slider padding-site"&#62
-                                    &#60div class="header"&#62
-                                        &#60a href="#"&#62&#60img src="img/logo.svg" alt="logo" class="logo"&#62&#60/a&#62
-                                        &#60ul class="menu clearfix"&#62
-                                            &#60li class="menu-list"&#62&#60a href="index.html" class="menu-link menu-link-active"&#62HOME&#60/a&#62&#60/li&#62
-                                            &#60li class="menu-list"&#62&#60a href="proddetals.html" class="menu-link"&#62PRODUCTS&#60/a&#62&#60/li&#62
-                                            &#60li class="menu-list"&#62&#60a href="product.html" class="menu-link"&#62HISTORY&#60/a&#62&#60/li&#62
-                                            &#60li class="menu-list"&#62&#60a href="#" class="menu-link"&#62SHOWROOM&#60/a&#62&#60/li&#62
-                                            &#60li class="menu-list"&#62&#60a href="contact.html" class="menu-link"&#62CONTACT&#60/a&#62&#60/li&#62
-                                            &#60li class="menu-list logo"&#62
-                                                &#60a href="#" class="menu-link" style="border:none"&#62&#60img src="img/search.svg" alt="search"&#62&#60/a&#62
-                                            &#60/li&#62
-                                        &#60/ul&#62
-                                    &#60/div&#62
-                                    &#60div class="slider-text"&#62
-                                        &#60p class="slider-tranding"&#62TRENDING&#60/p&#62
-                                        &#60h2 class="slider-h2"&#62Fishnet Chair&#60/h2&#62
-                                        &#60p class="slider-content clearfix"&#62Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black&#60/p&#62
-                                        &#60a href="#" class="button"&#62Order Us &#62&#60/a&#62 
-                                    &#60/div&#62
-                                    &#60div class="pagination clearfix"&#62
-                                        &#60a href="#" class="circle"&#62&#60/a&#62
-                                        &#60a href="#" class="circle circle-active"&#62&#60/a&#62
-                                        &#60a href="#" class="circle"&#62&#60/a&#62
-                                    &#60/div&#62
-                                &#60/div&#62
-                            &#60/div&#62
-                        &#60/body&#62
-                        &#60/html&#62
+    &#60;head&#62;
+        &#60;meta charset="UTF-8"&#62;
+        &#60;title&#62;Home Page&#60;/title&#62;
+        &#60;link rel="stylesheet" href="css/style.css"&#62;
+        &#60;link rel="stylesheet" href="css/fontsico.css"&#62; 
+    &#60;/head&#62;
+    &#60;body&#62;
+        &#60;div class="container"&#62;
+            &#60;div class="slider padding-site"&#62;
+                &#60;div class="header"&#62;
+                    &#60;a href="#"&#62;&#60;img src="img/logo.svg" alt="logo" class="logo"&#62;&#60;/a&#62;
+                    &#60;ul class="menu clearfix"&#62;
+                        &#60;li class="menu-list"&#62;&#60;a href="index.html" class="menu-link menu-link-active"&#62;HOME&#60;/a&#62;&#60;/li&#62;
+                        &#60;li class="menu-list"&#62;&#60;a href="proddetals.html" class="menu-link"&#62;PRODUCTS&#60;/a&#62;&#60;/li&#62;
+                        &#60;li class="menu-list"&#62;&#60;a href="product.html" class="menu-link"&#62;HISTORY&#60;/a&#62;&#60;/li&#62;
+                        &#60;li class="menu-list"&#62;&#60;a href="#" class="menu-link"&#62;SHOWROOM&#60;/a&#62;&#60;/li&#62;
+                        &#60;li class="menu-list"&#62;&#60;a href="contact.html" class="menu-link"&#62;CONTACT&#60;/a&#62;&#60;/li&#62;
+                        &#60;li class="menu-list logo"&#62;
+                            &#60;a href="#" class="menu-link" style="border:none"&#62;&#60;img src="img/search.svg" alt="search"&#62;&#60;/a&#62;
+                        &#60;/li&#62;
+                    &#60;/ul&#62;
+                &#60;/div&#62;
+                &#60;div class="slider-text"&#62;
+                    &#60;p class="slider-tranding"&#62;TRENDING&#60;/p&#62;
+                    &#60;h2 class="slider-h2"&#62;Fishnet Chair&#60;/h2&#62;
+                    &#60;p class="slider-content clearfix"&#62;Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black&#60;/p&#62;
+                    &#60;a href="#" class="button"&#62;Order Us &#62;&#60;/a&#62; 
+                &#60;/div&#62;
+                &#60;div class="pagination clearfix"&#62;
+                    &#60;a href="#" class="circle"&#62;&#60;/a&#62;
+                    &#60;a href="#" class="circle circle-active"&#62;&#60;/a&#62;
+                    &#60;a href="#" class="circle"&#62;&#60;/a&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+    &#60;/body&#62;
+    &#60;/html&#62;
                     </pre>
-                </details>
+                    </details>
                 <details>
-                    <summary>CSS</summary>
+                    <summary>CSS code-exampels</summary>
                     <pre>
-                    body {
-                        font-family: 'Montserrat', sans-serif;
-                    }
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
 
-                    html,
-                    body {
-                        height: 100%;
-                    }
+    html,
+    body {
+        height: 100%;
+    }
 
-                    a:hover {
-                        text-decoration: none;
-                    }
+    a:hover {
+        text-decoration: none;
+    }
 
-                    ul {
-                        margin-bottom: 0;
-                    }
+    ul {
+        margin-bottom: 0;
+    }
 
-                    .clearfix:after {
-                        content: "";
-                        display: table;
-                        clear: both;
-                    }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
-                    .container {
-                        width: 1366px;
-                        min-width: 1366px;
-                        margin: 0 auto;
-                        min-height: 100%;
-                        position: relative;
-                        padding-left: 0px;
-                        padding-right: 0px;
-                    }
+    .container {
+        width: 1366px;
+        min-width: 1366px;
+        margin: 0 auto;
+        min-height: 100%;
+        position: relative;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
-                    .padding-site {
-                        padding-left: 98px;
-                        padding-right: 98px;
-                    }
+    .padding-site {
+        padding-left: 98px;
+        padding-right: 98px;
+    }
 
-                    .slider {
-                        height: 800px;
-                        background-image: url(../img/slider-img.jpg);
-                        position: relative;
-                    }
+    .slider {
+        height: 800px;
+        background-image: url(../img/slider-img.jpg);
+        position: relative;
+    }
 
-                    .header {
-                        padding-top: 63px;
-                    }
+    .header {
+        padding-top: 63px;
+    }
 
-                    .logo {
-                        padding-top: 1%;
-                    }
+    .logo {
+        padding-top: 1%;
+    }
 
-                    .menu {
-                        float: right;
-                    }
+    .menu {
+        float: right;
+    }
 
-                    .menu-list {
-                        list-style-type: none;
-                        float: left;
-                        display: inline-block;
-                    }
+    .menu-list {
+        list-style-type: none;
+        float: left;
+        display: inline-block;
+    }
 
-                    .menu-link {
-                        font-size: 14px;
-                        font-weight: 300;
-                        line-height: 48px;
-                        letter-spacing: 1.4px;
-                        text-align: right;
-                        color: #8c8c8c;
-                        text-decoration: none;
-                        text-transform: uppercase;
-                        padding: 10px 13px;
-                    }
+    .menu-link {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 48px;
+        letter-spacing: 1.4px;
+        text-align: right;
+        color: #8c8c8c;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px 13px;
+    }
 
-                    .menu-link-active {
-                        font-weight: 700;
-                        color: #212121;
-                        border-bottom: 3px solid #212121;
-                    }
+    .menu-link-active {
+        font-weight: 700;
+        color: #212121;
+        border-bottom: 3px solid #212121;
+    }
 
-                    .menu-link:hover {
-                        color: #212121;
-                        border-bottom: 3px solid #212121;
-                    }
+    .menu-link:hover {
+        color: #212121;
+        border-bottom: 3px solid #212121;
+    }
 
-                    .menu-link:active {
-                        color: white;
-                    }
+    .menu-link:active {
+        color: white;
+    }
 
-                    .slider-text {
-                        margin-top: 283px;
-                    }
+    .slider-text {
+        margin-top: 283px;
+    }
 
-                    .slider-tranding {
-                        font-size: 18px;
-                        font-weight: bold;
-                        line-height: 48px;
-                        letter-spacing: 1.8px;
-                        text-align: left;
-                        color: #43a047;
-                        text-transform: uppercase;
-                    }
+    .slider-tranding {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 48px;
+        letter-spacing: 1.8px;
+        text-align: left;
+        color: #43a047;
+        text-transform: uppercase;
+    }
 
-                    .slider-h2 {
-                        font-size: 62px;
-                        font-weight: 100;
-                        color: #212121;
-                        text-transform: uppercase;
-                        margin: -10px 0px;
-                        letter-spacing: -3px;
-                        line-height: 72px;
-                    }
+    .slider-h2 {
+        font-size: 62px;
+        font-weight: 100;
+        color: #212121;
+        text-transform: uppercase;
+        margin: -10px 0px;
+        letter-spacing: -3px;
+        line-height: 72px;
+    }
 
-                    .slider-content {
-                        width: 458px;
-                        margin-top: 28px;
-                        margin-bottom: 28px;
-                        font-size: 14px;
-                        line-height: 24px;
-                        color: #6c6c6c;
-                                                
-                    }
+    .slider-content {
+        width: 458px;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #6c6c6c;
 
-                    .button {
-                        width: 212px;
-                        height: 45px;
-                        font-size: 18px;
-                        font-weight: bold;
-                        line-height: 45px;
-                        letter-spacing: 3.6px;
-                        text-align: center;
-                        color: #212121;
-                        border-radius: 22.5px;
-                        box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
-                        background-color: #ffffff;
-                        text-transform: uppercase;
-                        display: inline-block;
-                        text-decoration: none;
-                    }
+    }
 
-                    .button:hover {
-                        box-shadow: none;
-                    }
+    .button {
+        width: 212px;
+        height: 45px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 45px;
+        letter-spacing: 3.6px;
+        text-align: center;
+        color: #212121;
+        border-radius: 22.5px;
+        box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+        background-color: #ffffff;
+        text-transform: uppercase;
+        display: inline-block;
+        text-decoration: none;
+    }
 
-                    .button:active {
-                        background-color: #212121;
-                        color: white;
-                    }
+    .button:hover {
+        box-shadow: none;
+    }
 
-                    .pagination {
-                        width: 1183px;
-                        bottom: 19px;
-                        text-align: center;
-                    }
+    .button:active {
+        background-color: #212121;
+        color: white;
+    }
 
-                    .circle {
-                        width: 30px;
-                        height: 30px;
-                        display: inline-block;
-                        border-radius: 50%;
-                        background-color: #c7c7c7;
-                        margin: 5px
-                    }
+    .pagination {
+        width: 1183px;
+        bottom: 19px;
+        text-align: center;
+    }
 
-                    .circle-active {
-                        width: 40px;
-                        height: 40px;
-                        background-color: #212121;
-                        margin-bottom: 0;
-                    }
+    .circle {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: #c7c7c7;
+        margin: 5px
+    }
 
-                    .circle:hover {
-                        background-color: #212121;
-                    }
+    .circle-active {
+        width: 40px;
+        height: 40px;
+        background-color: #212121;
+        margin-bottom: 0;
+    }
 
-                    .circle:active {
-                        background-color: white;
-                    }
+    .circle:hover {
+        background-color: #212121;
+    }
 
-                    .content {
-                        width: 100%;
-                    }
+    .circle:active {
+        background-color: white;
+    }
 
-                    </pre>
+    .content {
+        width: 100%;
+    }
+                </pre>
                 </details>
-                <a href="https://github.com/YaroslavBIG">If you want to see more go to my Git account</a>
+                <aside><a href="https://github.com/YaroslavBIG">If you want to see more go to my Git account</a></aside>
             </div>
         </div>
-        <div class="experience">
+        <section class="experience">
             <h2>Experience</h2>
             <p>Сreated only educational projects</p>
-        </div>
-        <div class="education">
-        <h2>Education</h2><br>
-        <a href="https://geekbrains.ru/certificates/706201.en">HTML/CSS training course from Geek Brains</a><br>
-        <a href="https://ru.hexlet.io/my">JavaScript (base) on Hexlet.io</a>
-        </div>
-        <div class="english">
+        </section>
+        <section class="education">
+            <h2>Education</h2><br>
+            <a href="https://geekbrains.ru/certificates/706201.en">HTML/CSS training course from Geek Brains</a><br>
+            <a href="https://ru.hexlet.io/my">JavaScript (base) on Hexlet.io</a>
+        </section>
+        <section class="english">
             <h2>English</h2>
             <p>A2 — Elementary</p>
-        </div>
+        </section>
 
-    </div>
+    </main>
 </body>
 
 </html>
