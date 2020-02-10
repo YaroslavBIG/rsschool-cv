@@ -1,0 +1,80 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1024px;
+    min-width: 497px;
+    padding: 15px 20px;
+    background-color: #d3d3d3;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+}
+
+.contacts {
+    display: inline-block;
+    text-align: center;
+    font-style: inherit;
+    width: 60%;
+}
+
+.contacts :first-child {
+    margin-bottom: 15%;
+    margin-top: 0%;
+}
+
+.summary {
+    text-align: center;
+}
+
+.summary p {
+    text-align: left;
+}
+
+.technical-skills strong {
+    font-weight: bold;
+}
+
+.technical-skills ul li {
+    line-height: 160%;
+    padding: 1%
+}
+
+
+.code-exampels details {
+    margin-bottom: 30px;
+}
+
+.code-exampels pre {
+    overflow-x: auto;
+}
+
+.education a {
+    line-height: 160%;
+}
